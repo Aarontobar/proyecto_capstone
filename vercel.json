@@ -1,50 +1,47 @@
 {
     "functions": {
-      "php/administrador/Cruds/Mesas/*.php": {
+      "api/php/administrador/Cruds/Mesas/*.php": {
         "runtime": "vercel-php@0.5.2"
       },
-      "php/administrador/Cruds/Platillos/*.php": {
+      "api/php/administrador/Cruds/Platillos/*.php": {
         "runtime": "vercel-php@0.5.2"
       },
-      "php/administrador/Cruds/Usuarios/*.php": {
+      "api/php/administrador/Cruds/Usuarios/*.php": {
         "runtime": "vercel-php@0.5.2"
       },
-      "php/administrador/Cruds/*.php": {
+      "api/php/administrador/Cruds/*.php": {
         "runtime": "vercel-php@0.5.2"
       },
-      "php/administrador/*.php": {
+      "api/php/administrador/*.php": {
         "runtime": "vercel-php@0.5.2"
       },
-      "php/cliente/*.php": {
+      "api/php/cliente/*.php": {
         "runtime": "vercel-php@0.5.2"
       },
-      "php/cocina/*.php": {
+      "api/php/cocina/*.php": {
         "runtime": "vercel-php@0.5.2"
       },
-      "php/login/*.php": {
+      "api/php/login/*.php": {
         "runtime": "vercel-php@0.5.2"
       },
-      "php/menu/*.php": {
+      "api/php/menu/*.php": {
         "runtime": "vercel-php@0.5.2"
       },
-      "php/mesero/*.php": {
+      "api/php/mesero/*.php": {
         "runtime": "vercel-php@0.5.2"
       },
-      "php/metre/*.php": {
+      "api/php/metre/*.php": {
         "runtime": "vercel-php@0.5.2"
       },
-      "php/modulos/*.php": {
+      "api/php/modulos/*.php": {
         "runtime": "vercel-php@0.5.2"
       },
-      "php/restaurante/*.php": {
-        "runtime": "vercel-php@0.5.2"
-      },
-      "php/*.php": {
+      "api/php/restaurante/*.php": {
         "runtime": "vercel-php@0.5.2"
       }
     },
     "routes": [
-      { "src": "/(.*)",  "dest": "index.php" },
+      { "src": "/(.*)",  "dest": "/api/php/index.php" },
   
       { "src": "/css/administrador.css", "dest": "/css/administrador.css" },
       { "src": "/css/asignar_mesa.css", "dest": "/css/asignar_mesa.css" },
