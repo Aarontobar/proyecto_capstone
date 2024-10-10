@@ -1,11 +1,28 @@
 {
     "functions": {
-      "api/**/*.php": {
+      "php/*.php": {
         "runtime": "vercel-php@0.5.2"
       }
     },
     "routes": [
-      { "src": "/(.*)",  "dest": "/api/index.php" },
-      { "src": "/css/style.css", "dest": "/css/style.css" },
-      { "src": "/js/script.js", "dest": "/js/script.js" }]
+      { "src": "/(.*)",  "dest": "index.php" },
+  
+      { "src": "/css/administrador.css", "dest": "/css/administrador.css" },
+      { "src": "/css/asignar_mesa.css", "dest": "/css/asignar_mesa.css" },
+      { "src": "/css/cocina.css", "dest": "/css/cocina.css" },
+      { "src": "/css/login.css", "dest": "/css/login.css" },
+      { "src": "/css/mesero.css", "dest": "/css/mesero.css" },
+      { "src": "/css/pedido.css", "dest": "/css/pedido.css" },
+      { "src": "/css/reportes.css", "dest": "/css/reportes.css" },
+      { "src": "/css/reservas.css", "dest": "/css/reservas.css" },
+      { "src": "/css/ver_estado.css", "dest": "/css/ver_estado.css" },
+      { "src": "/css/ver_menu.css", "dest": "/css/ver_menu.css" },
+  
+      { "src": "/js/administrador.js", "dest": "/js/administrador.js" },
+      { "src": "/js/asignar_mesa.js", "dest": "/js/asignar_mesa.js" },
+      { "src": "/js/cocina.js", "dest": "/js/cocina.js" },
+      { "src": "/js/mesero.js", "dest": "/js/mesero.js" },
+      { "src": "/js/reportes.js", "dest": "/js/reportes.js" },
+      { "src": "/js/ver_menu.js", "dest": "/js/ver_menu.js" }
+    ]
   }
