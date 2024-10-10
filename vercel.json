@@ -1,5 +1,20 @@
 {
     "functions": {
+      "php/Cruds/Mesas/*.php": {
+        "runtime": "vercel-php@0.5.2"
+      },
+      "php/Cruds/Platillos/*.php": {
+        "runtime": "vercel-php@0.5.2"
+      },
+      "php/Cruds/Usuarios/*.php": {
+        "runtime": "vercel-php@0.5.2"
+      },
+      "php/cliente/*.php": {
+        "runtime": "vercel-php@0.5.2"
+      },
+      "php/cocina/*.php": {
+        "runtime": "vercel-php@0.5.2"
+      },
       "php/*.php": {
         "runtime": "vercel-php@0.5.2"
       }
