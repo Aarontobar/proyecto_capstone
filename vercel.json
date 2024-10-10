@@ -48,7 +48,7 @@
       "api/php/administrador/data.php": {
         "runtime": "vercel-php@0.6.0"
       },
-      "api/php/administrador/exportar.php": {
+      "api/php/administrador/exportar_pdf.php": {
         "runtime": "vercel-php@0.6.0"
       },
       "api/php/administrador/reportes.php": {
