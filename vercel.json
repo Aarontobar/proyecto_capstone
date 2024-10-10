@@ -1,18 +1,42 @@
 {
     "functions": {
-      "php/Cruds/Mesas/*.php": {
+      "php/administrador/Cruds/Mesas/*.php": {
         "runtime": "vercel-php@0.5.2"
       },
-      "php/Cruds/Platillos/*.php": {
+      "php/administrador/Cruds/Platillos/*.php": {
         "runtime": "vercel-php@0.5.2"
       },
-      "php/Cruds/Usuarios/*.php": {
+      "php/administrador/Cruds/Usuarios/*.php": {
+        "runtime": "vercel-php@0.5.2"
+      },
+      "php/administrador/Cruds/*.php": {
+        "runtime": "vercel-php@0.5.2"
+      },
+      "php/administrador/*.php": {
         "runtime": "vercel-php@0.5.2"
       },
       "php/cliente/*.php": {
         "runtime": "vercel-php@0.5.2"
       },
       "php/cocina/*.php": {
+        "runtime": "vercel-php@0.5.2"
+      },
+      "php/login/*.php": {
+        "runtime": "vercel-php@0.5.2"
+      },
+      "php/menu/*.php": {
+        "runtime": "vercel-php@0.5.2"
+      },
+      "php/mesero/*.php": {
+        "runtime": "vercel-php@0.5.2"
+      },
+      "php/metre/*.php": {
+        "runtime": "vercel-php@0.5.2"
+      },
+      "php/modulos/*.php": {
+        "runtime": "vercel-php@0.5.2"
+      },
+      "php/restaurante/*.php": {
         "runtime": "vercel-php@0.5.2"
       },
       "php/*.php": {
@@ -24,12 +48,16 @@
   
       { "src": "/css/administrador.css", "dest": "/css/administrador.css" },
       { "src": "/css/asignar_mesa.css", "dest": "/css/asignar_mesa.css" },
+      { "src": "/css/chat.css", "dest": "/css/chat.css" },
       { "src": "/css/cocina.css", "dest": "/css/cocina.css" },
       { "src": "/css/login.css", "dest": "/css/login.css" },
       { "src": "/css/mesero.css", "dest": "/css/mesero.css" },
+      { "src": "/css/nosotros.css", "dest": "/css/nosotros.css" },
+      { "src": "/css/pruebas.css", "dest": "/css/pruebas.css" },
       { "src": "/css/pedido.css", "dest": "/css/pedido.css" },
       { "src": "/css/reportes.css", "dest": "/css/reportes.css" },
       { "src": "/css/reservas.css", "dest": "/css/reservas.css" },
+      { "src": "/css/reseñas.css", "dest": "/css/reseñas.css" },
       { "src": "/css/ver_estado.css", "dest": "/css/ver_estado.css" },
       { "src": "/css/ver_menu.css", "dest": "/css/ver_menu.css" },
   
@@ -38,6 +66,7 @@
       { "src": "/js/cocina.js", "dest": "/js/cocina.js" },
       { "src": "/js/mesero.js", "dest": "/js/mesero.js" },
       { "src": "/js/reportes.js", "dest": "/js/reportes.js" },
+      { "src": "/js/chat.js", "dest": "/js/chat.js" },
       { "src": "/js/ver_menu.js", "dest": "/js/ver_menu.js" }
     ]
   }
