@@ -41,7 +41,7 @@
       }
     },
     "routes": [
-      { "src": "/(.*)",  "dest": "/api/php/index.php" },
+    { "src": "/(.*)",  "dest": "/index.php" },
   
       { "src": "/css/administrador.css", "dest": "/css/administrador.css" },
       { "src": "/css/asignar_mesa.css", "dest": "/css/asignar_mesa.css" },
